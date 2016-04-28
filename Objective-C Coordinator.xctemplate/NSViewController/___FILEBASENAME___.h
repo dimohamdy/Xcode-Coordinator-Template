@@ -47,7 +47,7 @@
 #pragma mark - Coordinator Creation
 - (instancetype)init NS_UNAVAILABLE;
 - (instancetype)initWithNavigationController:(__kindof ___VARIABLE_navigationControllerClass___ *)navigationController;
-- (instancetype)initWithNavigationController:(__kindof ___VARIABLE_navigationControllerClass___ *)navigationController delegate:(id<___FILEBASENAMEASIDENTIFIER___Delegate>)delegate;
+- (instancetype)initWithNavigationController:(__kindof ___VARIABLE_navigationControllerClass___ *)navigationController delegate:(id<___FILEBASENAMEASIDENTIFIER___Delegate>)delegate NS_DESIGNATED_INITIALIZER;
 
 
 #pragma mark - Coordinator Properties
