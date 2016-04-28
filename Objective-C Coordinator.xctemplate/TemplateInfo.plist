@@ -40,14 +40,14 @@
         <key>Description</key>
         <string>Which class to use as navigation controller</string>
         <key>NotPersisted</key>
-        <true />
+        <false />
         <key>Required</key>
         <true />
         <key>Type</key>
         <string>class</string>
 				<key>Values</key>
 				<array>
-					<string>Coordinator</string>
+					<string>NSViewController</string>
 				</array>
         <key>Default</key>
         <string>NSViewController</string>
