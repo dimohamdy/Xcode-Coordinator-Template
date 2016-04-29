@@ -41,12 +41,6 @@
 @end
 
 
-#pragma mark - CCNCoordinator Protocol
-@protocol CCNCoordinator <NSObject>
-- (void)start;
-@end
-
-
 @interface ___FILEBASENAMEASIDENTIFIER___ : NSObject
 
 
@@ -58,7 +52,7 @@
 
 #pragma mark - Coordinator Properties
 @property (nonatomic, strong, readonly) __kindof ___VARIABLE_navigationControllerClass___ *navigationController;
-@property (nonatomic, strong) NSMutableArray<id<CCNCoordinator>> *childCoordinators;
+@property (nonatomic, strong) NSMutableArray *childCoordinators;
 @property (weak) id<___FILEBASENAMEASIDENTIFIER___Delegate> delegate;
 
 
