@@ -53,6 +53,14 @@
     return self;
 }
 
++ (instancetype)coordinatorWithNavigationController:(__kindof ___VARIABLE_navigationControllerClass___ *)navigationController {
+    return [[[self class] alloc] initWithNavigationController:navigationController];
+}
+
++ (instancetype)coordinatorWithNavigationController:(__kindof ___VARIABLE_navigationControllerClass___ *)navigationController delegate:(id<___FILEBASENAMEASIDENTIFIER___Delegate>)delegate {
+    return [[[self class] alloc] initWithNavigationController:navigationController delegate:delegate];
+}
+
 #pragma mark - API
 
 - (void)start {

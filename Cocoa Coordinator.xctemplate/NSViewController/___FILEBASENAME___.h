@@ -49,6 +49,9 @@
 - (instancetype)initWithNavigationController:(__kindof ___VARIABLE_navigationControllerClass___ *)navigationController;
 - (instancetype)initWithNavigationController:(__kindof ___VARIABLE_navigationControllerClass___ *)navigationController delegate:(id<___FILEBASENAMEASIDENTIFIER___Delegate>)delegate NS_DESIGNATED_INITIALIZER;
 
++ (instancetype)coordinatorWithNavigationController:(__kindof ___VARIABLE_navigationControllerClass___ *)navigationController;
++ (instancetype)coordinatorWithNavigationController:(__kindof ___VARIABLE_navigationControllerClass___ *)navigationController delegate:(id<___FILEBASENAMEASIDENTIFIER___Delegate>)delegate;
+
 
 #pragma mark - Coordinator Properties
 @property (nonatomic, strong, readonly) __kindof ___VARIABLE_navigationControllerClass___ *navigationController;
