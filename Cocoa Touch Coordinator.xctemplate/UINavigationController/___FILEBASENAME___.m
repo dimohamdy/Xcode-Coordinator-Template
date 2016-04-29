@@ -30,6 +30,10 @@
 #import "___FILEBASENAMEASIDENTIFIER___.h"
 
 
+@interface ___FILEBASENAMEASIDENTIFIER___ ()
+@property (nonatomic, strong) NSMutableArray *childCoordinators;
+@end
+
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
 #pragma mark - Coordinator Creation
