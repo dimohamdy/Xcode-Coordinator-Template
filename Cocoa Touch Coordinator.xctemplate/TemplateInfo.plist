@@ -47,16 +47,15 @@
         <string>class</string>
 				<key>Values</key>
 				<array>
-					<string>NSViewController</string>
+					<string>UINavigationController</string>
 				</array>
         <key>Default</key>
-        <string>NSViewController</string>
+        <string>UINavigationController</string>
       </dict>
     </array>
 
     <key>Platforms</key>
     <array>
-      <string>com.apple.platform.macosx</string>
       <string>com.apple.platform.iphoneos</string>
     </array>
 

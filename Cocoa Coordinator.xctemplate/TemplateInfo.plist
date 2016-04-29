@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>AllowedTypes</key>
+    <array>
+      <string>public.objective-c-source</string>
+    </array>
+
+    <key>DefaultCompletionName</key>
+    <string>CoordinatorClass</string>
+    <key>Description</key>
+    <string>An Objective-C Coordinator class, which directs multiple view controllers. Contains implementation and header.</string>
+    <key>Kind</key>
+    <string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+    <key>MainTemplateFile</key>
+    <string>___FILEBASENAME___.m</string>
+
+    <key>Options</key>
+    <array>
+      <dict>
+        <key>Identifier</key>
+        <string>productName</string>
+        <key>Name</key>
+        <string>Coordinator Class</string>
+        <key>Description</key>
+        <string>The name of the Coordinator to create</string>
+        <key>NotPersisted</key>
+        <true />
+        <key>Required</key>
+        <true />
+        <key>Type</key>
+        <string>text</string>
+      </dict>
+      <dict>
+        <key>Identifier</key>
+        <string>navigationControllerClass</string>
+        <key>Name</key>
+        <string>Navigation Controller Class</string>
+        <key>Description</key>
+        <string>Which class to use as navigation controller</string>
+        <key>NotPersisted</key>
+        <false />
+        <key>Required</key>
+        <true />
+        <key>Type</key>
+        <string>class</string>
+				<key>Values</key>
+				<array>
+					<string>NSViewController</string>
+				</array>
+        <key>Default</key>
+        <string>NSViewController</string>
+      </dict>
+    </array>
+
+    <key>Platforms</key>
+    <array>
+      <string>com.apple.platform.macosx</string>
+    </array>
+
+    <key>Summary</key>
+    <string>Objective-C Coordinator</string>
+  </dict>
+</plist>
