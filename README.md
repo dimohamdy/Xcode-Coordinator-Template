@@ -22,6 +22,10 @@ The Coordinator template will be installed under `~/Library/Developer/Xcode/Temp
 ![Coordinator Xcode](img/xcode-coordinator-install.png)
 
 
+## Note
+
+In order to let the coordinator class work properly on Mac OS X, you need a navigation controller. Mac OS X doesn't support such an class. So, you might have a look on another open source software project of mine here on Github: [CCNNavigationController](https://github.com/phranck/CCNNavigationController).
+
 
 ## Xcode Template Ressources
 
