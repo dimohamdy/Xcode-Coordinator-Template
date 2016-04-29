@@ -53,7 +53,7 @@
 #pragma mark - Coordinator Properties
 @property (nonatomic, strong, readonly) __kindof ___VARIABLE_navigationControllerClass___ *navigationController;
 @property (nonatomic, strong) NSMutableArray *childCoordinators;
-@property (weak) id<___FILEBASENAMEASIDENTIFIER___Delegate> delegate;
+@property (weak, readonly) id<___FILEBASENAMEASIDENTIFIER___Delegate> delegate;
 
 
 #pragma mark - API
