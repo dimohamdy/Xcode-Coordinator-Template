@@ -5,19 +5,15 @@ An Xcode File Template that creates an Objective-C Coordinator class. It is for 
 
 ## Installation
 
-This repository contains an `install.h` shell script. You should give it execution rights with:
+Just run this shell command in your terminal:
 
 ```Shell
-$ chmod +x install.sh
+$ curl -SL https://raw.githubusercontent.com/phranck/Xcode-Coordinator-Template/master/install.sh | sh
 ```
 
-before exute it with:
+The Coordinator template will be installed under `~/Library/Developer/Xcode/Templates/File Templates/Source/`.
 
-```Shell
-$ ./install.sh
-```
-
-The Coordinator template will be installed under `~/Library/Developer/Xcode/Templates/File Templates/Source/`. Regarding the last path component `Source/` you'll find it in Xcode under the related category `Source` for both iOS and OS X.
+Regarding this last path component `Source/` you'll find it in Xcode under the related category `Source` for both iOS and OS X.
 
 ![Coordinator Xcode](img/xcode-coordinator-install.png)
 
