@@ -1,6 +1,6 @@
 #!/bin/sh
 
-VERSSION="1.0.0"
+VERSSION="1.0.1"
 CURRENT_DIR=$(pwd)
 TEMP_DIR="/tmp"
 ARCHIVE_NAME="Xcode-Coordinator-Template"
