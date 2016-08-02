@@ -25,7 +25,7 @@ In order to let the coordinator class work properly on Mac OS X, you need a navi
 
 ## Xcode Template Ressources
 
-* There is a [very good article](Creating Custom Xcode 4 File Templates) which describes how to create your own Xcode file templates with **lots** of insights about the quite undocumented keys and variables used in the `TemplateInfo.plist`.
+* There is a [very good article](http://www.bobmccune.com/2012/03/04/creating-custom-xcode-4-file-templates/) which describes how to create your own Xcode file templates with **lots** of insights about the quite undocumented keys and variables used in the `TemplateInfo.plist`.
 
 
 ## Contribution
